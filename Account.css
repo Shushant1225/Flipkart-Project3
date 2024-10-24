@@ -1,0 +1,192 @@
+:root {
+    --main-bg-color: #0b6be6;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+header {
+    background-color: var(--main-bg-color);
+    height: 105px;
+    width: 100vw;
+}
+
+.logo img {
+    height: 53px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.btn {
+    height: 40px;
+    width: 70px;
+    color: white;
+    background-color: #0b6be6;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.btn:active {
+    background-color: yellow;
+    color: #0b6be6;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 23px;
+}
+
+.tab {
+    background-color: aqua;
+    height: 10px;
+    width: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-family: serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    font-size: large;
+    color: yellow;
+}
+
+nav ul {
+    justify-content: center;
+    padding-top: 15px;
+    display: inline-flex
+}
+
+
+.search {
+    position: relative;
+    left: 290px;
+    bottom: 70px;
+
+
+}
+
+#search {
+    height: 35px;
+    width: 50vw;
+    padding-left: 8px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: inherit;
+}
+
+main {
+    height: 86vh;
+    background-color: #d5d7dbbd;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.hello {
+    height: 13vh;
+    width: 24vw;
+    background-color: white;
+    position: relative;
+    left: 2vw;
+    top: 3vh;
+
+}
+
+.hello h2 {
+    position: relative;
+    left: 8vw;
+    top: 4vh;
+}
+
+.hello img {
+    height: 10vh;
+    width: auto;
+    position: relative;
+    left: 19px;
+    bottom: 3vh;
+}
+
+.section {
+    background-color: white;
+    height: 65vh;
+    width: 24vw;
+    position: relative;
+    top: 19vh;
+    left: -22vw;
+}
+
+.section ul li {
+    list-style: none;
+    padding: 7px 7px;
+}
+
+.section h3 {
+    padding: 25px 8px;
+}
+
+.section img {
+    position: absolute;
+    left: 16vw;
+    bottom: 43vh;
+    height: 10vh;
+    border-radius: 35px;
+}
+
+.section2 {
+    background-color: white;
+    height: 81vh;
+    width: 68vw;
+    position: relative;
+    right: 19vw;
+    top: 3vh;
+
+}
+
+.section2 h2 {
+    margin: 11px 30px;
+}
+
+.section2 .txt {
+    background-color: #d5d7dbbd;
+    margin: 13px 33px;
+    height: 6vh;
+    width: 20vw;
+    padding-left: 25px;
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    border-radius: 8px;
+}
+
+.section2 label {
+    margin: 2px 40px
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    width: 100vw;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 28px;
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+}

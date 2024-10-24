@@ -1,0 +1,186 @@
+:root {
+    --main-bg-color: #0b6be6;
+}
+body{
+    overflow-x: hidden;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--main-bg-color);
+    height: 105px;
+    width: 100vw;
+}
+
+.logo img {
+    height: 53px;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.btn {
+    height: 40px;
+    width: 70px;
+    color: white;
+    background-color: #0b6be6;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+
+.btn:active {
+    background-color: yellow;
+    color: #0b6be6;
+}
+
+header nav ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 23px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    font-family: serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+nav ul li a:hover {
+    font-weight: bolder;
+    font-size: large;
+    color: yellow;
+}
+
+nav ul {
+    justify-content: center;
+    padding-top: 15px;
+    display: inline-flex
+}
+
+
+.search {
+    position: relative;
+    left: 290px;
+    bottom: 70px;
+}
+
+#search {
+    height: 35px;
+    width: 50vw;
+    padding-left: 8px;
+    border-radius: 6px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: inherit;
+}
+
+.slide {
+    display: inline-flex;
+    flex-direction: row;
+    height: 64vh;
+    background-color: #d5d7dbbd;
+    width: 100vw;
+}
+
+.slide2 img {
+    height: 167px;
+    width: 100vw;
+}
+
+.left {
+    background-color: #0b6be6;
+    color: white;
+    height: 53vh;
+    width: 28vw;
+    position: relative;
+    left: 38vh;
+    top: 5vh;
+    border-radius: 5px;
+}
+
+.left h2 {
+    text-align: center;
+    position: relative;
+    top: 15vh;
+}
+
+.left p {
+    text-align: center;
+    position: relative;
+    top: 110px;
+}
+
+.left img {
+    position: relative;
+    top: 109px;
+    left: 76px;
+}
+
+.right {
+    background-color: white;
+    height: 53vh;
+    width: 30vw;
+    position: relative;
+    left: 38vh;
+    top: 5vh;
+    border-radius: 5px;
+}
+
+.form {
+    position: relative;
+    top: 15vh;
+    left: 7vw;
+}
+
+#otp {
+    height: 48px;
+    width: 380px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+    position: relative;
+    right: 6vw;
+}
+
+.btn1 {
+    position: relative;
+    top: 8vh;
+    left: -4vw;
+    width: 24vw;
+    height: 8vh;
+    background-color: orangered;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+
+.btn1:hover {
+    background-color: orange;
+}
+
+.btn1:active {
+    background-color: orangered;
+}
+
+footer {
+    background-color: var(--main-bg-color);
+    color: white;
+    height: 12vh;
+    width: 100vw;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 28px;
+    font-family: "Lato", serif;
+    font-weight: 100;
+    font-style: normal;
+}
